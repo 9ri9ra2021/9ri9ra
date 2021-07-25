@@ -1,3 +1,23 @@
 *{
 	font-family: 'Yomogi', cursive;
 }
+#bgm{
+	background-color: #faa;
+	padding: 15px
+	margin:5px;
+}
+.contents{
+	background-color: #f66;
+	margin: 15px;
+	padding: 15px
+}
+#stage{
+	background-color: #aaf;
+	padding: 15px
+	margin:5px;
+}
+
+article{
+	width: 70%;
+	padding: 15px
+}

@@ -56,19 +56,20 @@ div{
 	margin: 0px 10px 10px 5px;;
 }
 #bgm{
-	background-color: #faa;
 	margin:5px;
 }
 
 .contents{
 	background-color: #f66;
-	margin: 15px;
+	border:solid;
+	border-width: 1px;
+	border-color: #000;
+	margin: 15px 20em 15px 15px;
 }
 .contents h3{
 	font-size: 1.5em;
 }
 #stage{
-	background-color: #aaf;
 	padding: 15px
 	margin:5px;
 }

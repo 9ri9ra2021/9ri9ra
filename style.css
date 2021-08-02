@@ -24,8 +24,14 @@ header .top{
     bottom:  0;
     left:  0;
     right:  0;
-
 }
+header a{
+	color: #00f;
+}
+header a:hover{
+	color: #f00;
+}
+
 .top{
 	font-size: 1.5em;
 	text-align: center;
@@ -60,10 +66,11 @@ div{
 }
 
 .contents{
-	background-color: #f66;
+	color: #fff;
+	background-color: #182142;
 	border:solid;
-	border-width: 1px;
-	border-color: #000;
+	border-width: 4px;
+	border-color: #f3b23a;
 	margin: 15px 20em 15px 15px;
 }
 .contents h3{

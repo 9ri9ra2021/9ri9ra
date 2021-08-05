@@ -132,6 +132,14 @@ div{
 #stage a{
 	font-weight: bold;
 }
+#stage .ni{
+	font-size: 1.25em;
+	text-align: center;
+}
+#stage .ni img{
+	width: 160px;
+	height: 120px;
+}
 article{
 	width: 80%;
 	padding: 15px

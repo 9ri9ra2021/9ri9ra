@@ -46,7 +46,7 @@ header h1 a:hover{
 	border: solid;
 	border-color: #fff;
 	border-width:2px;
-	width:19em;
+	width:20em;
 	transition: all  0.3s ease;
 	pointer-events: none;
 }
@@ -124,7 +124,7 @@ div{
 	border:solid;
 	border-width: 4px;
 	border-color: #f3b23a;
-	margin: 15px 20em 15px 15px;
+	margin: 15px 15px 15px 15px;
 }
 .contents h3{
 	font-size: 1.5em;

@@ -103,7 +103,7 @@ h2{
 	margin-bottom: 20px;
 }
 #bgm h3{
-	font-size: 1.5em;
+	font-size: 1.25em;
 	margin: 10px 0px 0px 0px;
 }
 h3{
@@ -116,6 +116,9 @@ div{
 }
 #bgm{
 	margin:5px;
+	font-size: 0.9em;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .contents{
@@ -124,17 +127,18 @@ div{
 	border:solid;
 	border-width: 4px;
 	border-color: #f3b23a;
-	margin: 15px 15px 15px 15px;
+	margin: 0px auto 15px -20px;
+	width: 45%;
 }
 .contents h3{
 	font-size: 1.5em;
 }
 #stage{
-	padding: 15px
+	padding: 10px
 	margin:5px;
 }
 #stage table{
-	border-collapse:  collapse; 7
+	border-collapse:  collapse;
 	border-width: 1px;
 	border-color: #000;
 }
@@ -196,6 +200,5 @@ div{
 article{
 	margin: 20px;
 	background-color: #fff;
-	width: 80%;
 	padding: 15px
 }

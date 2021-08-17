@@ -17,7 +17,11 @@ header h1 a{
 header h1 a:hover{
 	color: #f00;
 }
+.maincontents{
+	display: flex;
+}
 .icon1{
+	height: 35px;
 	padding: 7px;
 	background-color: #fff;
 	border: solid;
@@ -37,6 +41,7 @@ header h1 a:hover{
 	pointer-events: auto;
 }
 .sns{
+	margin-left: -25px;
 	padding: 20px 0px 0px 0px;
 	display: flex;
 }
@@ -145,6 +150,14 @@ div{
 #stage th,td{
 	padding: 10px
 }
+#stage .level{
+	padding:5px;
+	height: 50%;
+}
+#stage .comment{
+	padding: 5px;
+	height: 50%;
+}
 #stage th{
 	background-color: #444;
 	padding: 1.25em;
@@ -155,31 +168,43 @@ div{
 	background-color: #006400;
 	color:#fff;
 	text-align: center;
+	padding: 5px;
+	height: 0;
 }
 #stage .ad{
 	background-color: #ff4500;
 	color:#fff;
 	text-align: center;
+	padding: 5px;
+	height: 0;
 }
 #stage .ex{
 	background-color: #800000;
 	color:#fff;
 	text-align: center;
+	padding: 5px;
+	height: 0;
 }
 #stage .ma{
 	background-color: #800080;
 	color:#fff;
 	text-align: center;
+	padding: 5px;
+	height: 0;
 }
 #stage .we{
 	background-color: #010101;
 	color:#fff;
 	text-align: center;
+	padding: 5px;
+	height: 0;
 }
 #stage .an{
 	background-color: #e6e6fa;
 	color:#4b0082;
 	text-align: center;
+	padding: 5px;
+	height: 0;
 }
 
 #stage td{
@@ -193,9 +218,16 @@ div{
 	font-size: 1.25em;
 	text-align: center;
 }
+#stage .ni a{
+	color: #00f;
+}
+#stage .ni a:hover{
+	color: #f00;
+}
 #stage .ni img{
-	width: 160px;
-	height: 120px;
+	padding-top: 5px;
+	width: 220px;
+	height: 180px;
 }
 article{
 	margin: 20px;

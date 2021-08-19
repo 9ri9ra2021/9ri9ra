@@ -1,7 +1,9 @@
 *{
 	margin: 0px;
 	padding: 0px;
+	font-size: 1.02em;
 	font-family: 'Yomogi', cursive;
+	font-weight: bold;
 }
 
 body{background-color: #b4cce4;}
@@ -268,6 +270,36 @@ div{
   	bottom: 400px;
   	pointer-events: none;
   	margin-bottom: -375px;
+}
+#stage li{
+	margin-left: 2em;
+}
+.document{
+	margin: 10px -5px 0px -5px;
+	border-bottom: solid;
+	border-width: 2px;
+	border-color: #eb6101;
+	margin-bottom: 20px;
+}
+.document a{
+	margin-left: -10px;
+	font-size: 1.5em;
+}
+.document h4{
+	font-size: 1.25em;
+}
+#open ul{
+	margin-left: 1.5em;
+	margin-bottom: 10px;
+}
+#open ul a{
+	color: #00f;
+}
+#open ul a:hover{
+	color: #f00;
+}
+.document:hover{
+	color: #f00;
 }
 article{
 	margin: 20px;
